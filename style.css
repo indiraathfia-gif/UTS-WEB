@@ -190,3 +190,75 @@ body {
     clear: both;
     line-height: 25px;
 }
+
+@media screen and (max-width: 768px) {
+
+    body {
+        padding: 0;
+    }
+
+    .kontainer {
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+        height: auto;
+        padding: 25px 15px;
+    }
+
+    .header h1 {
+        font-size: 30px;
+    }
+
+    .header p {
+        font-size: 14px;
+    }
+
+    .menu {
+        width: 100%;
+        height: auto;
+        line-height: normal;
+        padding: 10px 0;
+    }
+
+    .menu a {
+        display: block;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .kiri {
+        width: 100%;
+        min-height: auto;
+        float: none;
+    }
+
+    .tengah {
+        width: 100%;
+        min-height: auto;
+        float: none;
+        padding: 20px;
+    }
+
+    .kanan {
+        width: 100%;
+        min-height: auto;
+        float: none;
+    }
+
+    .tengah img {
+        width: 100%;
+        height: auto;
+    }
+
+    .artikel img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer {
+        width: 100%;
+        min-height: auto;
+    }
+}
